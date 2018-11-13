@@ -183,8 +183,8 @@ var matchLunchEvent = (events) => {
 
 
     // clear any existing nodes
-    var myNode = document.getElementById("events");
-    myNode.innerHTML = '';
+    var myNode =$("#events");
+    myNode.text('');
 
     getCollisions(events);
     getAttributes(events);
