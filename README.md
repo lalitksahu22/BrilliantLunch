@@ -1,4 +1,4 @@
-In this Problem we need to display the event in a calender without consding it with Others
+In this Problem we need to display the event in a calender without coinciding it with Others
 For placing any event in the calender, i use Absolute position with top,left and width property.
 For placing event I used the jquery library.
 
