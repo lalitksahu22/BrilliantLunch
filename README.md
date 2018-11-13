@@ -1,5 +1,5 @@
 In this Problem we need to display the event in a calender without coinciding it with Others
-For placing any event in the calender, i use Absolute position with top,left and width property.
+For placing any event in the calender, i used Absolute position with top,left and width property.
 For placing event I used the jquery library.
 
 ------------------For Creating  UI-----------------------
@@ -11,8 +11,8 @@ collisions is an array that tells you which events are in each 30 min slot
   - [0,0,1,2] 
   ==> event 1 is not present, event 2 is not present, event 3 is at order 1, event 4 is at order 2
 
-I mapped time interval to pixel and using this collisions array find different attributes width,top,right position.
- and display in a container.
+I mapped time interval to pixel and using this collisions array found different attributes width,top,right position.
+ and displayed in a container.
 
 
 ------------------For Buisness Case----------------------------------
